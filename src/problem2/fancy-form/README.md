@@ -17,14 +17,14 @@ Ensure that you have [Node.js](https://nodejs.org/en) and [npm](https://www.npmj
 1. Clone the repository
 2. Install dependencies
 
-'''
+```
 npm install
-'''
+```
 
 3. Run the development server
-'''
+```
 npm start
-'''
+```
 
 ## Usage
 1. Select the input token - Click on the token next to "You pay" and select your desired input token from the menu.
