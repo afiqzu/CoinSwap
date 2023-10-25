@@ -1,12 +1,12 @@
 import "../styles/Navbar.css";
 
 const Navbar = () => {
-  return (
-    <div className="nav">
-      <h3>CoinSwap</h3>
-      <p>Swap</p>
-    </div>
-  );
+    return (
+        <div className="nav">
+            <h3>CoinSwap</h3>
+            <p>Swap</p>
+        </div>
+    );
 };
 
 export default Navbar;

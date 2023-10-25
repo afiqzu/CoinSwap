@@ -1,16 +1,12 @@
 .token-select {
-  height: 30px;
-  border-radius: 25px;
-  padding: 5px;
-  justify-content: space-between;
-  gap: 5px;
-  background-color: #171717;
-  display: flex;
-  align-items: center;
-  margin: 5px;
-  cursor: pointer;
-}
-
-.token-select:hover {
-  background-color: #3d3d3d;
+    height: 30px;
+    border-radius: 25px;
+    padding: 5px;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: #171717;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
 }
