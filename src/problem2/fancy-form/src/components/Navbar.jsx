@@ -7,9 +7,6 @@ const Navbar = () => {
                 <p>
                     Swap
                 </p>
-                <p>
-                    Tokens
-                </p>
             </div>
     )
 }
