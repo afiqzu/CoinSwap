@@ -9,21 +9,21 @@ const SwapForm = () => {
     const [outputCurrency, setOutputCurrency] = useState('ETH');
     const [inputAmount, setInputAmount] = useState(1);
     const [outputAmount, setOutputAmount] = useState(0);
-    const [tokenMenu, setTokenMenu] = useState(false)
+    const [tokenMenuVisible, setTokenMenuVisible] = useState(false)
     const [selectedType, setSelectedType] = useState(null);  // Either "input" or "output" or null
 
     useEffect(() => {
         computeOutput();
-    }, [inputCurrency, outputCurrency, inputAmount]);
+    });
 
 
     const openTokenMenu = (type) => {
         setSelectedType(type);
-        setTokenMenu(true);
+        setTokenMenuVisible(true);
     };
 
     const closeTokenMenu = () => {
-        setTokenMenu(false);
+        setTokenMenuVisible(false);
         computeOutput()
     };
 
@@ -125,7 +125,7 @@ const SwapForm = () => {
                     </div>
                 </div>
             </form>
-            {tokenMenu && <TokenMenu selectedInputToken={inputCurrency}
+            {tokenMenuVisible && <TokenMenu selectedInputToken={inputCurrency}
                                      selectedOutputToken={outputCurrency} onTokenSelected={handleTokenSelected}
                                      onClose={closeTokenMenu}/>
             }
