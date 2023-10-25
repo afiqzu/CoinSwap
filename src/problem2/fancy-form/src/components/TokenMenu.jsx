@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TokenSelect from "./TokenSelect";
 import tokens from "../rates.json";
 import { Close } from "@mui/icons-material";
+import "../styles/TokenMenu.css";
 
 const TokenMenu = ({
   selectedInputToken,

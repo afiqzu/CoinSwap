@@ -4,6 +4,9 @@ import TokenSelect from "./TokenSelect";
 import TokenMenu from "./TokenMenu";
 import { SwapVert } from "@mui/icons-material";
 
+import "../styles/SwapForm.css";
+import "../styles/TokenMenu.css";
+
 const SwapForm = () => {
   const [inputCurrency, setInputCurrency] = useState("USD");
   const [outputCurrency, setOutputCurrency] = useState("ETH");

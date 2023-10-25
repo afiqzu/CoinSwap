@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/TokenSelect.css";
 
 const TokenSelect = ({ name, onClick, isInputSelected, isOutputSelected }) => {
   const getBackground = () => {

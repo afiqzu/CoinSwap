@@ -1,0 +1,19 @@
+.nav {
+  color: white;
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.nav p {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  color: #c2c2c2;
+  cursor: pointer;
+}
+
+.nav p:hover {
+  color: white;
+}
