@@ -2,6 +2,14 @@
 
 Welcome to the Cryptocurrency Swap Interface repository! This project provides a user-friendly interface for swapping one cryptocurrency for another. It features a dynamically updating rate based on the selected tokens, and an intuitive token selection menu.
 
+
+
+
+https://github.com/afiqzu/CoinSwap/assets/93078202/6a5b80ab-ee37-4f40-9e12-813e9d867d66
+
+
+
+
 ## Features
 
 - Swap between different cryptocurrency tokens.
